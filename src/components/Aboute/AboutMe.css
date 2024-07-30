@@ -1,0 +1,132 @@
+/* AboutMe.css */
+
+.aboutme {
+    padding: 4rem 0;
+    background-color: #020617; /* Dark background color */
+    color: white;
+    position: relative;
+    overflow: hidden; /* To handle background effects */
+}
+
+.aboutme::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at bottom left, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.5));
+    z-index: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    z-index: 1; /* Ensure text is above the background effect */
+}
+
+.profile-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: url("../../photos/portfolio\ 2.jpg") no-repeat center/cover;
+    margin-bottom: 1rem;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: 5px solid #d8fc25; /* Accent border */
+}
+
+.profile-img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.4);
+}
+
+.about-content {
+    max-width: 800px;
+    text-align: center;
+}
+
+.about-content h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #d8fc25;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.about-content h4 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.about-content p {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: #e0e0e0;
+    margin-bottom: 1rem;
+}
+
+.info-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.info-card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    width: 220px;
+    text-align: left;
+}
+
+.info-icon {
+    font-size: 2rem;
+    color: #007bff;
+    margin-right: 1rem;
+}
+
+.info-text h4 {
+    font-size: 1rem;
+    margin: 0;
+    color: #333;
+}
+
+.info-text p {
+    font-size: 0.875rem;
+    margin: 0;
+    color: #666;
+}
+
+.additional-info {
+    margin-top: 2rem;
+    font-size: 1.125rem;
+    line-height: 1.6;
+}
+
+.additional-info::before {
+    content: "📚 ";
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .profile-img {
+        width: 200px;
+        height: 200px;
+    }
+}
