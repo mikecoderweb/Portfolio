@@ -17,7 +17,6 @@ const Skills = () => {
     { name: 'PowerPoint', icon: 'https://p7.hiclipart.com/preview/742/145/200/microsoft-powerpoint-computer-icons-ppt-presentation-microsoft-powerpoint-network-icon.jpg' },
     { name: 'Figma', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoUX5LMRa7atIsNfl0nP3DaUaV4URhV0PHfA&s' },
     { name: 'Tilda', icon: 'https://cdn.icon-icons.com/icons2/2429/PNG/512/tilda_logo_icon_147224.png' },
-    { name: 'Tilda', icon: 'https://cdn.icon-icons.com/icons2/2429/PNG/512/tilda_logo_icon_147224.png' },
     // Add more skills here
   ];
 
