@@ -12,6 +12,12 @@ const Skills = () => {
     { name: 'Bootstrap', icon: 'https://icons.getbootstrap.com/assets/img/icons-hero.png' },
     { name: 'Redux', icon: 'https://w7.pngwing.com/pngs/95/797/png-transparent-redux-hd-logo-thumbnail.png' },
     { name: 'Sass', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd8vwYNSgvlaRDn2dOEZbng_lyeXdNC-pn2A&s' },
+    { name: 'Word', icon: 'https://png.pngtree.com/element_our/sm/20180627/sm_5b33460fe6357.jpg' },
+    { name: 'Excel', icon: 'https://i.pinimg.com/736x/bd/b6/ab/bdb6abe62ffe8ac78bff9ae3fb552b5e.jpg' },
+    { name: 'PowerPoint', icon: 'https://p7.hiclipart.com/preview/742/145/200/microsoft-powerpoint-computer-icons-ppt-presentation-microsoft-powerpoint-network-icon.jpg' },
+    { name: 'Figma', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoUX5LMRa7atIsNfl0nP3DaUaV4URhV0PHfA&s' },
+    { name: 'Tilda', icon: 'https://cdn.icon-icons.com/icons2/2429/PNG/512/tilda_logo_icon_147224.png' },
+    { name: 'Tilda', icon: 'https://cdn.icon-icons.com/icons2/2429/PNG/512/tilda_logo_icon_147224.png' },
     // Add more skills here
   ];
 
